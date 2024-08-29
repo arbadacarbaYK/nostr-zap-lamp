@@ -12,10 +12,10 @@ The number of flashes corresponds to the number of digits in the number of sats 
 
 # Features
 
-+ Show a signal when a zap is sent to one or all nostr npubs
++ Show a signal when a zap is sent to one or more nostr npubs
 + Background brightness control
-+ Easily configure to use your own nostr relay
-+ Simple configuration to work with any npub
++ Easily configurable to listen to payments-events for an npub via a dedicated/own [nostrrelay]([https://github.com/lnbits/nostrclient](https://github.com/lnbits/nostrrelay))
++ Listen to payments events for an npub on multiple relays by defining a multiplexer using the [nostrclient](https://github.com/lnbits/nostrclient) extension
 
 ## Parts
 + [LED "Neon" lamp](https://www.amazon.co.uk/YIVIYAR-Lightning-Battery-Bedroom-Christmas/dp/B08K4SCVKQ)
